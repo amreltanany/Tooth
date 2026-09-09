@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowUpRight, CalendarDays, Check, ChevronDown, Instagram, MapPin, Menu, Phone, Sparkles, Star, Stethoscope, X } from "lucide-react";
 
 const logo = "/manus-storage/taj-elite-logo_1d4b0830.png";
-const video = "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
+const video = "/manus-storage/taj-elite-tooth_9ae634a2.mp4";
 
 const navItems = [
   ["Services", "services"],
