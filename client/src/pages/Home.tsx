@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowUpRight, CalendarDays, Check, ChevronDown, Instagram, MapPin, Menu, Phone, Sparkles, Star, Stethoscope, X } from "lucide-react";
 
 const logo = "/manus-storage/taj-elite-logo_1d4b0830.png";
-const video = "https://videos.pexels.com/video-files/3764250/3764250-hd_1920_1080_25fps.mp4";
+const video = "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
 
 const navItems = [
   ["Services", "services"],
@@ -43,7 +43,7 @@ export default function Home() {
         </nav>
 
         <div className="hero-video-wrap">
-          <video className="hero-video" autoPlay muted loop playsInline poster={logo}>
+          <video className="hero-video" autoPlay muted loop playsInline preload="auto" poster={logo} aria-hidden="true">
             <source src={video} type="video/mp4" />
           </video>
           <div className="hero-video-tint" />
